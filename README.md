@@ -111,5 +111,6 @@ Mirna:
 - Sampling / PCA experiments
 
 Aakash:
--
--
+- Support Vector Machine Model
+- Ensemble Model
+- TabNet implementation
