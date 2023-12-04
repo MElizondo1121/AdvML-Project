@@ -11,7 +11,6 @@ precision, recall, F1 Score, and accuracy scores.
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
 - [Models](#models)
@@ -42,9 +41,6 @@ between the predicted probability and the observed target. The provided training
 | Operational Status Flag (OSF)  | Used to indicate the current operational status of a machine (e.g., 0 for operational, 1 for non-operational) | 2     | 2    |
 | Remaining Useful Life (RNF)    | Estimated or predicted remaining lifespan of a machine or component before it is expected to fail         | 2     | 2    |
 
-
-## Installation
-Provide step-by-step instructions to install the necessary dependencies or libraries required to run the project.
 
 ## Usage
 1. Download the dataset: [Kaggle Competition Link](https://www.kaggle.com/competitions/playground-series-s3e17/discussion)
