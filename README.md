@@ -47,7 +47,7 @@ between the predicted probability and the observed target. The provided training
 Provide step-by-step instructions to install the necessary dependencies or libraries required to run the project.
 
 ## Usage
-1. Download the dataset (link below)
+1. Download the dataset: [Kaggle Competition Link](https://www.kaggle.com/competitions/playground-series-s3e17/discussion)
 2. [Exploratory Data Analysis](src/EDA.ipynb)
 3. [Preprocessing- cleaning/encoding](src/Preprocessing.ipynb)
 4. [Dimensionality Reduction - PCA](src/PCA.ipynb)
@@ -58,7 +58,7 @@ Provide step-by-step instructions to install the necessary dependencies or libra
 The figures outputted by the notebooks can be found: [Figs](https://github.com/MElizondo1121/AdvML-Project/tree/main/figs)
 
 ## Data
-[Kaggle Competition Link](https://www.kaggle.com/competitions/playground-series-s3e17/discussion)
+
 
 | Column                   | Non-Null Count | Dtype   |
 |--------------------------|----------------|---------|
@@ -102,7 +102,7 @@ The figures outputted by the notebooks can be found: [Figs](https://github.com/M
 
 ## Results
 The models, including VotingClassifier, RFC (Random Forest Classifier), and LGBM (Light Gradient Boosting Machine), exhibit remarkable performance across all metrics, boasting precision, recall, F1 Score, and accuracy scores consistently above 99\%. These results highlight their effectiveness in accurately classifying instances, showcasing robust predictive capabilities.
-Sampling Techniques and Model Stability. Different sampling methodologies, such as SMOTE, undersampling, and resampling, demonstrated comparable performance enhancements across various models. This suggests the stability and reliability of these techniques in improving model performance and handling imbalanced datasets. 
+Sampling Techniques and Model Stability. Different sampling methodologies, such as SMOTE, undersampling, and resampling, demonstrated comparable performance enhancements across various models. This suggests the stability and reliability of these techniques in improving model performance and handling imbalanced datasets.
 While the evaluated models showcase high predictive accuracy, certain models, notably the VotingClassifier and TabNet, display exceptionally high scores, possibly indicating overfitting tendencies. This calls for cautious consideration regarding their generalizability on unseen data and their practical applicability.
 ![Combined Scores](figs/scoresComparisons.png)
 *Figure 1: Accuracy, Precision, Recall and F1 scores.*
